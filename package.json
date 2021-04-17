@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
   },
   "repository": {
     "type": "git",
@@ -29,8 +31,8 @@
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
+    "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
-    "http-loader": "0.0.1",
     "mini-css-extract-plugin": "^1.5.0",
     "webpack": "^5.33.2",
     "webpack-cli": "^4.6.0",
