@@ -24,9 +24,17 @@
     "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.2",
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "html-webpack-plugin": "^5.3.1",
+    "http-loader": "0.0.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "core-js": "^3.10.1"
